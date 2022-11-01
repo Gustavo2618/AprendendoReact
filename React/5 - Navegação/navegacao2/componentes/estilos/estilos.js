@@ -13,7 +13,7 @@ const estilos = StyleSheet.create({
         fontSize:18,
         marginBottom:20,
     },
-    texo:{
+    texto:{
         textAlign:'center'
     }
 

@@ -7,7 +7,7 @@ export default function TelaHome(){
     return(
         <View style={estilos.container}>
             <Text style={estilos.titulo}>Como navegar?</Text>
-            <Text style={estilos.texo}>Toque nas abas abaixo para navegar entre as telas.</Text>
+            <Text style={estilos.texto}>Toque nas abas abaixo para navegar entre as telas.</Text>
         </View>
     );
 }
