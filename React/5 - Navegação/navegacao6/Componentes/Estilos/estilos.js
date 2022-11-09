@@ -1,9 +1,12 @@
 import { StyleSheet } from "react-native";
 
-const Estilos = StyleSheet.create({
+const estilos = StyleSheet.create({
     container:{
         flex:1,
         alignContent:'center',
+        alignItems:'center',
+        justifyContent:'center',
+        
     },   
     texto:{
         alignItems:'center',

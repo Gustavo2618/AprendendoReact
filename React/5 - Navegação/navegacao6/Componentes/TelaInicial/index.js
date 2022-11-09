@@ -6,7 +6,7 @@ export default function TelaInicial(){
 
     return(
 
-        <View>
+        <View style={estilos.container}>
 
             <Text>Tela Incial</Text>
         </View>
