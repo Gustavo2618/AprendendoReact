@@ -6,7 +6,6 @@ const estilos = StyleSheet.create({
         alignContent:'center',
         alignItems:'center',
         justifyContent:'center',
-        
     },   
     texto:{
         alignItems:'center',

@@ -1,14 +1,18 @@
 import React from "react";
-import { Text, View } from "react-native";
+import { Text, View , Button} from "react-native";
 import estilos from "../Estilos/estilos";
 
-export default function TelaInicial(){
+
+export default function TelaInicial(props){
 
     return(
 
         <View style={estilos.container}>
 
-            <Text>Tela Incial</Text>
+            <Text style={estilos.texto}>Tela Incial</Text>
+            <Button title="Abrir Menu" onPress={()=>{props.navigation.openDrawer()}}>
+                
+            </Button>
         </View>
     );
 }
