@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "projeto1-cap3.4",
-    "slug": "projeto1-cap3.4",
+    "name": "projeto1",
+    "slug": "projeto1",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
