@@ -8,10 +8,11 @@ const estilos = StyleSheet.create({
     },
     containerPai:{
         flex:1,
-        backgroundColor:"#e1e3",
+        backgroundColor:"#f4fbc3",
         alignItems:'center',
         padding:20,
         justifyContent:'center'
+    
         
     },
     titulo:{
