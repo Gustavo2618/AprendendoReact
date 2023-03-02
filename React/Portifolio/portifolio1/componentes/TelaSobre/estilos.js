@@ -7,7 +7,7 @@ const estilos = StyleSheet.create(
             padding:10,
             alignItems:"center",
             justifyContent:"center",
-            backgroundColor:'#209000',
+            backgroundColor:'#20ddaa',
         },
         card:{
             backgroundColor:'#fff',
