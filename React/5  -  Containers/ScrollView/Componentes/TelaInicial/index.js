@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text ,ScrollView, Image } from "react-native";
+import {Text ,ScrollView, Image } from "react-native";
 import estilos from "../estilos/estilos";
 import Capa from '../../assets/capa.png';
 
