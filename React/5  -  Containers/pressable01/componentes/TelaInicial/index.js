@@ -8,8 +8,7 @@ export default function TelaInicial(props)
     return(
         <View style={estilos.container}>
             <Pressable
-                style={estilos.botao} onPress={()=> {props.navigation.navigate('Sobre')}}
-            >
+                style={estilos.botao} onPress={()=> {props.navigation.navigate('Sobre')}}>
                  <Text style={estilos.botaoTitulo}>Sobre</Text>
             </Pressable>
         </View>

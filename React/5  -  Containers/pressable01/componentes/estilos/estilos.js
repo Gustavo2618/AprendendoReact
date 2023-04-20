@@ -4,8 +4,10 @@ const estilos = StyleSheet.create(
     {
         container:{
             felx:1,
-            justifyContent:'center',
-            alignItems:'center'
+            justifyContent:"center",
+            alignItems:"center",
+            
+            
         },
         botao:{
             width:120,
@@ -14,6 +16,9 @@ const estilos = StyleSheet.create(
             alignItems:'center',
             backgroundColor:'#000',
             borderRadius:20,
+            
+
+            
         },
         botaoTitulo:{
             color:'#fff',
