@@ -9,6 +9,7 @@ const estilos = StyleSheet.create(
             justifyContent:'center',
             alignItems:'center'
         },
+  
         image:{
             width:320,
             height:200,
@@ -24,7 +25,6 @@ const estilos = StyleSheet.create(
 
         },
         texto:{
-            marginBottom:10,
             width:320,
             fontSize:16,
             color:'#b2b2b2',
