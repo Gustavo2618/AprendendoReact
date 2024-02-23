@@ -18,7 +18,7 @@ export default function TelaInicial(props)
                 <Pressable style={estilos.botaoContainer} onPress={()=>{props.navigation.navigate("Galaxias")}}>
                     <Text style={estilos.botaoLabel}>Galáxias</Text>
                 </Pressable>
-                <Pressable style={estilos.botaoContainer} onPress={()=>{props.navigation.navigate("Buraco Negro")}}>
+                <Pressable style={estilos.botaoContainer} onPress={()=>{props.navigation.navigate("BuracoNegro")}}>
                     <Text style={estilos.botaoLabel}>Buraco Negro</Text>
                 </Pressable>
             </View>

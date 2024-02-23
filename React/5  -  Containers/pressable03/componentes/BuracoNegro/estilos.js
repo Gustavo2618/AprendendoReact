@@ -1,0 +1,55 @@
+import { StyleSheet } from "react-native";
+const estilos = StyleSheet.create(
+    {
+        container:{
+            
+            justifyContent:'center',
+            alignItems:'center',
+            backgroundColor:'#121212',
+            padding:20,
+            flex:1
+        },
+        titulo:{
+            fontSize:26,
+            color:'#cf9556',
+            marginBottom:20,
+            fontWeight:'bold',
+            width:300,
+            textAlign:'center'
+        },
+        text:{
+            color:'#b2b2b2',
+            textAlign:'justify',
+            marginBottom:10,
+            fontSize:16
+        },
+        imagem:{
+            width:360,
+            height:200,
+            marginTop:10,
+            borderRadius:10,
+            marginBottom:40,
+        },
+        pressBtn:{
+            flexDirection:'row',
+            backgroundColor:'#cf9556',
+            borderRadius:25,
+            width:200,
+            paddingVertical:5,
+            marginBottom:10,
+            justifyContent:'center',
+            alignItems:'center',
+        },
+        pressImage:{
+            height:25,
+            width:25
+        },
+        pressText:{
+            paddingVertical:5,
+            paddingHorizontal:10,
+            backgroundColor:'#cf9556',
+            borderRadius:25
+        }
+    }
+)
+export default estilos;

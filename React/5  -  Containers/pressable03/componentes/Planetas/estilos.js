@@ -11,6 +11,7 @@ const estilos = StyleSheet.create({
     },
     titulo:{
         color:'#cf9556',
+        textAlign:'center',
         width:300,
         fontSize:26,
         fontWeight: 'bold',
@@ -51,7 +52,7 @@ const estilos = StyleSheet.create({
     },
     container1:{
         alignItems:'center'
-    },
+    }
 
 })
 
